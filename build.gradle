@@ -1,0 +1,27 @@
+buildscript {
+	repositories {
+		mavenLocal()
+		maven {
+			url "https://raw.github.com/khaing211/maven-repo/master/releases"
+		}
+
+		dependencies {
+			classpath group: 'com.github.kn.gradle-integration', name: 'java-project-plugin', version: javaProjectPluginVersion
+			classpath group: 'com.github.kn.gradle-integration', name: 'antlr-project-plugin', version: javaProjectPluginVersion
+		}
+	}
+}
+
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+subprojects {
+	if (name.endsWith('-language')) {
+		apply plugin: 'antlr-project'
+		apply plugin: 'java-project'
+		
+		dependencies {
+			antlr group: 'org.antlr', name: 'antlr4', version: antlr4Version
+		}
+	}
+}

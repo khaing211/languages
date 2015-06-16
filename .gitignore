@@ -1,0 +1,31 @@
+# eclipse
+.project
+.settings
+*.class
+.classpath
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/bin
+/build
+
+# gradle
+.gradle
+
+# offline dependency
+lib
+
+# idea file
+*.iml
+*.ipr
+*.iws
+.idea
+
+# cache
+.cache
+*~
+
+# except libs to store dependencies that is not on maven
+!/libs
