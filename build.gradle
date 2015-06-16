@@ -15,6 +15,10 @@ buildscript {
 apply plugin: 'idea'
 apply plugin: 'eclipse'
 
+task wrapper(type: Wrapper) {
+	gradleVersion = gradleVersion
+}
+
 subprojects { 
 	if (name.endsWith('-language')) {
 		apply plugin: 'antlr-project'
@@ -27,6 +31,5 @@ subprojects {
 		generateGrammarSource {
 			arguments = ['-listener', '-visitor', '-long-messages', '-Werror']
 		}
-		
 	}
 }
