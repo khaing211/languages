@@ -1,4 +1,4 @@
-include 'parser'
+include 'core'
 include 'antlr4-language'
 include 'bnf-language'
 include 'c-language'
