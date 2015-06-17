@@ -1,4 +1,4 @@
-// Generated from /home/howard/personal/languages-parser/clojure-language/src/main/antlr/Clojure.g4 by ANTLR 4.5
+// Generated from /home/developer/workspace/languages-parser/clojure-language/src/main/antlr/Clojure.g4 by ANTLR 4.5
 package com.github.kn.language.parser.impl.model.backend.clojure;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
