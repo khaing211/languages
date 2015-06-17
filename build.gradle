@@ -29,7 +29,7 @@ subprojects {
 		}
 		
 		generateGrammarSource {
-			arguments = ['-listener', '-visitor', '-long-messages', '-Werror']
+			arguments = ['-listener', '-visitor', '-long-messages']
 		}
 	}
 }
