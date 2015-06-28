@@ -6,3 +6,7 @@ generateGrammarSource {
 	outputDirectory = file('src/main/java/' + javaPackage.replaceAll('\\.', '/'))
 	arguments += ['-package', javaPackage]
 }
+
+dependencies {
+	compile group: 'com.squareup', name: 'javapoet', version: javaPoetVersion
+}
