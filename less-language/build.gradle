@@ -1,8 +1,8 @@
 ext {
-	javaPackage = 'com.github.kn.language.parser.impl.model.backend.less'
+  javaPackage = 'com.github.kn.language.parser.impl.model.backend.less'
 }
 
 generateGrammarSource {
-	outputDirectory = file('src/main/java/' + javaPackage.replaceAll('\\.', '/'))
-	arguments += ['-package', javaPackage]
+  outputDirectory = file('src/main/java/' + javaPackage.replaceAll('\\.', '/'))
+  arguments += ['-package', javaPackage]
 }

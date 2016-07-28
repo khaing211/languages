@@ -1,12 +1,12 @@
 ext {
-	javaPackage = 'com.github.kn.language.parser.impl.model.backend.java'
+  javaPackage = 'com.github.kn.language.parser.impl.model.backend.java'
 }
 
 generateGrammarSource {
-	outputDirectory = file('src/main/java/' + javaPackage.replaceAll('\\.', '/'))
-	arguments += ['-package', javaPackage]
+  outputDirectory = file('src/main/java/' + javaPackage.replaceAll('\\.', '/'))
+  arguments += ['-package', javaPackage]
 }
 
 dependencies {
-	compile group: 'com.squareup', name: 'javapoet', version: javaPoetVersion
+  compile project(":core")
 }
