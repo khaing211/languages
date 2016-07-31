@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/antlr4-language/src/main/antlr/Antlr4Parser.g4 by ANTLR 4.5
+// Generated from Antlr4Parser.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.antlr4;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class Antlr4Parser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -717,6 +717,7 @@ public class Antlr4Parser extends Parser {
 		enterRule(_localctx, 14, RULE_delegateGrammar);
 		try {
 			setState(196);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,9,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -873,6 +874,7 @@ public class Antlr4Parser extends Parser {
 			setState(212);
 			match(AT);
 			setState(216);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,12,_ctx) ) {
 			case 1:
 				{
@@ -1130,6 +1132,7 @@ public class Antlr4Parser extends Parser {
 		enterRule(_localctx, 26, RULE_ruleSpec);
 		try {
 			setState(243);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,16,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2389,6 +2392,7 @@ public class Antlr4Parser extends Parser {
 		int _la;
 		try {
 			setState(385);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,41,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2703,6 +2707,7 @@ public class Antlr4Parser extends Parser {
 		enterRule(_localctx, 74, RULE_lexerCommand);
 		try {
 			setState(412);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,44,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3037,6 +3042,7 @@ public class Antlr4Parser extends Parser {
 		int _la;
 		try {
 			setState(454);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,53,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3461,6 +3467,7 @@ public class Antlr4Parser extends Parser {
 		int _la;
 		try {
 			setState(491);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,61,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3568,6 +3575,7 @@ public class Antlr4Parser extends Parser {
 		int _la;
 		try {
 			setState(501);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,63,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3658,6 +3666,7 @@ public class Antlr4Parser extends Parser {
 		enterRule(_localctx, 98, RULE_notSet);
 		try {
 			setState(507);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,64,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3799,6 +3808,7 @@ public class Antlr4Parser extends Parser {
 		int _la;
 		try {
 			setState(530);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,68,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -4253,6 +4263,7 @@ public class Antlr4Parser extends Parser {
 		enterRule(_localctx, 114, RULE_elementOption);
 		try {
 			setState(587);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,79,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);

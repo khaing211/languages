@@ -1,6 +1,5 @@
-// Generated from /home/developer/workspace/languages-parser/r-language/src/main/antlr/R.g4 by ANTLR 4.5
+// Generated from R.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.r;
-import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**

@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/dot-language/src/main/antlr/Dot.g4 by ANTLR 4.5
+// Generated from Dot.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.dot;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class DotParser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -281,6 +281,7 @@ public class DotParser extends Parser {
 		enterRule(_localctx, 4, RULE_stmt);
 		try {
 			setState(56);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,4,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);

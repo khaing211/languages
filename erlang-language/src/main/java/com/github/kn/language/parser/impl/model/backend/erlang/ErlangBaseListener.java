@@ -1,8 +1,7 @@
-// Generated from /home/developer/workspace/languages-parser/erlang-language/src/main/antlr/Erlang.g4 by ANTLR 4.5
+// Generated from Erlang.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.erlang;
 
 import org.antlr.v4.runtime.ParserRuleContext;
-import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 

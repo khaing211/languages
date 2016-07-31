@@ -1,6 +1,5 @@
-// Generated from /home/developer/workspace/languages-parser/scss-language/src/main/antlr/ScssParser.g4 by ANTLR 4.5
+// Generated from ScssParser.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.scss;
-import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**

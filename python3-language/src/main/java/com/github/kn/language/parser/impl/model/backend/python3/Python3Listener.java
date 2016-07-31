@@ -1,6 +1,5 @@
-// Generated from /home/developer/workspace/languages-parser/python3-language/src/main/antlr/Python3.g4 by ANTLR 4.5
+// Generated from Python3.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.python3;
-import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**

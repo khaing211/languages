@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/scala-language/src/main/antlr/Scala.g4 by ANTLR 4.5
+// Generated from Scala.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.scala;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class ScalaParser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -180,6 +180,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(219);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,2,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -418,11 +419,13 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(257);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,9,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
 				{
 				setState(243);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,6,_ctx) ) {
 				case 1:
 					{
@@ -582,6 +585,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(271);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,11,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -658,6 +662,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(286);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,14,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -905,6 +910,7 @@ public class ScalaParser extends Parser {
 					setState(307);
 					match(Id);
 					setState(309);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,17,_ctx) ) {
 					case 1:
 						{
@@ -996,6 +1002,7 @@ public class ScalaParser extends Parser {
 					_la = _input.LA(1);
 				}
 				setState(326);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,20,_ctx) ) {
 				case 1:
 					{
@@ -1146,6 +1153,7 @@ public class ScalaParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(354);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,25,_ctx) ) {
 			case 1:
 				{
@@ -1156,6 +1164,7 @@ public class ScalaParser extends Parser {
 			case 2:
 				{
 				setState(346);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,24,_ctx) ) {
 				case 1:
 					{
@@ -1208,6 +1217,7 @@ public class ScalaParser extends Parser {
 					_prevctx = _localctx;
 					{
 					setState(361);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,26,_ctx) ) {
 					case 1:
 						{
@@ -1476,6 +1486,7 @@ public class ScalaParser extends Parser {
 		enterRule(_localctx, 32, RULE_refineStat);
 		try {
 			setState(396);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,31,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1590,6 +1601,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(411);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,33,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1681,6 +1693,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(424);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,36,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1812,6 +1825,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(546);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,52,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1841,6 +1855,7 @@ public class ScalaParser extends Parser {
 				setState(436);
 				expr();
 				setState(442);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,39,_ctx) ) {
 				case 1:
 					{
@@ -1897,6 +1912,7 @@ public class ScalaParser extends Parser {
 				setState(456);
 				match(T__25);
 				setState(462);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,41,_ctx) ) {
 				case 1:
 					{
@@ -1916,6 +1932,7 @@ public class ScalaParser extends Parser {
 					break;
 				}
 				setState(469);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,42,_ctx) ) {
 				case 1:
 					{
@@ -1931,6 +1948,7 @@ public class ScalaParser extends Parser {
 					break;
 				}
 				setState(473);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,43,_ctx) ) {
 				case 1:
 					{
@@ -2041,6 +2059,7 @@ public class ScalaParser extends Parser {
 				setState(509);
 				match(T__32);
 				setState(511);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,48,_ctx) ) {
 				case 1:
 					{
@@ -2056,12 +2075,14 @@ public class ScalaParser extends Parser {
 				{
 				{
 				setState(523);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,51,_ctx) ) {
 				case 1:
 					{
 					setState(513);
 					match(T__33);
 					setState(516);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,49,_ctx) ) {
 					case 1:
 						{
@@ -2203,6 +2224,7 @@ public class ScalaParser extends Parser {
 			setState(548);
 			infixExpr(0);
 			setState(553);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,54,_ctx) ) {
 			case 1:
 				{
@@ -2371,6 +2393,7 @@ public class ScalaParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(570);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,57,_ctx) ) {
 			case 1:
 				{
@@ -2385,12 +2408,14 @@ public class ScalaParser extends Parser {
 				break;
 			}
 			setState(582);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,60,_ctx) ) {
 			case 1:
 				{
 				setState(572);
 				match(T__33);
 				setState(575);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,58,_ctx) ) {
 				case 1:
 					{
@@ -2418,6 +2443,7 @@ public class ScalaParser extends Parser {
 				setState(578);
 				simpleExpr1(0);
 				setState(580);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,59,_ctx) ) {
 				case 1:
 					{
@@ -2507,6 +2533,7 @@ public class ScalaParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(619);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,67,_ctx) ) {
 			case 1:
 				{
@@ -2569,6 +2596,7 @@ public class ScalaParser extends Parser {
 					setState(598);
 					match(T__33);
 					setState(601);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,63,_ctx) ) {
 					case 1:
 						{
@@ -2609,6 +2637,7 @@ public class ScalaParser extends Parser {
 					setState(609);
 					match(T__33);
 					setState(612);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,65,_ctx) ) {
 					case 1:
 						{
@@ -2777,6 +2806,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(657);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,73,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2802,6 +2832,7 @@ public class ScalaParser extends Parser {
 				setState(641);
 				match(T__9);
 				setState(645);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,71,_ctx) ) {
 				case 1:
 					{
@@ -2884,6 +2915,7 @@ public class ScalaParser extends Parser {
 		enterRule(_localctx, 54, RULE_blockExpr);
 		try {
 			setState(667);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,74,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3050,6 +3082,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(706);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,81,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3192,6 +3225,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(724);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,85,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3401,6 +3435,7 @@ public class ScalaParser extends Parser {
 				if ( _alt==1 ) {
 					{
 					setState(746);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,88,_ctx) ) {
 					case 1:
 						{
@@ -3717,6 +3752,7 @@ public class ScalaParser extends Parser {
 		enterRule(_localctx, 74, RULE_pattern1);
 		try {
 			setState(782);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,93,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3790,6 +3826,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(790);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,95,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3869,6 +3906,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(804);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,98,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3958,6 +3996,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(836);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,103,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -4008,6 +4047,7 @@ public class ScalaParser extends Parser {
 				setState(817);
 				match(T__9);
 				setState(821);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,100,_ctx) ) {
 				case 1:
 					{
@@ -4043,6 +4083,7 @@ public class ScalaParser extends Parser {
 				setState(831);
 				match(T__9);
 				setState(833);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,102,_ctx) ) {
 				case 1:
 					{
@@ -4104,6 +4145,7 @@ public class ScalaParser extends Parser {
 		try {
 			int _alt;
 			setState(852);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,106,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -4544,6 +4586,7 @@ public class ScalaParser extends Parser {
 				_alt = getInterpreter().adaptivePredict(_input,116,_ctx);
 			}
 			setState(924);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,118,_ctx) ) {
 			case 1:
 				{
@@ -4829,6 +4872,7 @@ public class ScalaParser extends Parser {
 		enterRule(_localctx, 100, RULE_paramType);
 		try {
 			setState(964);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,125,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -4923,6 +4967,7 @@ public class ScalaParser extends Parser {
 				_alt = getInterpreter().adaptivePredict(_input,126,_ctx);
 			}
 			setState(980);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,128,_ctx) ) {
 			case 1:
 				{
@@ -5741,6 +5786,7 @@ public class ScalaParser extends Parser {
 			setState(1067);
 			match(T__12);
 			setState(1069);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,142,_ctx) ) {
 			case 1:
 				{
@@ -5836,6 +5882,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(1116);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,150,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -6293,6 +6340,7 @@ public class ScalaParser extends Parser {
 			setState(1162);
 			match(Id);
 			setState(1167);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,157,_ctx) ) {
 			case 1:
 				{
@@ -7035,6 +7083,7 @@ public class ScalaParser extends Parser {
 		enterRule(_localctx, 158, RULE_varDef);
 		try {
 			setState(1261);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,170,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -7122,6 +7171,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(1288);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,174,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -7309,6 +7359,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(1307);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,177,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -7597,6 +7648,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(1342);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,184,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -7611,6 +7663,7 @@ public class ScalaParser extends Parser {
 				enterOuterAlt(_localctx, 2);
 				{
 				setState(1340);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,183,_ctx) ) {
 				case 1:
 					{
@@ -7675,6 +7728,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(1352);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,187,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -7689,6 +7743,7 @@ public class ScalaParser extends Parser {
 				enterOuterAlt(_localctx, 2);
 				{
 				setState(1350);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,186,_ctx) ) {
 				case 1:
 					{
@@ -7769,6 +7824,7 @@ public class ScalaParser extends Parser {
 			setState(1357);
 			classParents();
 			setState(1359);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,189,_ctx) ) {
 			case 1:
 				{
@@ -7838,6 +7894,7 @@ public class ScalaParser extends Parser {
 			setState(1364);
 			traitParents();
 			setState(1366);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,191,_ctx) ) {
 			case 1:
 				{
@@ -8564,6 +8621,7 @@ public class ScalaParser extends Parser {
 		int _la;
 		try {
 			setState(1471);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,207,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);

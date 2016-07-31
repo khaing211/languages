@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/scss-language/src/main/antlr/ScssLexer.g4 by ANTLR 4.5
+// Generated from ScssLexer.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.scss;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
@@ -11,7 +11,7 @@ import org.antlr.v4.runtime.misc.*;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class ScssLexer extends Lexer {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =

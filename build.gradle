@@ -7,8 +7,8 @@ buildscript {
     maven { url 'https://plugins.gradle.org/m2/' }
     
     dependencies {
-      classpath group: 'com.github.kn.gradle-integration', name: 'java-project-plugin', version: javaProjectPluginVersion
-      classpath group: 'com.github.kn.gradle-integration', name: 'antlr-project-plugin', version: javaProjectPluginVersion
+      classpath group: 'com.kn.forge', name: 'java-project-plugin', version: forgeVersion
+      classpath group: 'com.kn.forge', name: 'antlr-project-plugin', version: forgeVersion
     }
   }
 }

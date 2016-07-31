@@ -1,6 +1,5 @@
-// Generated from /home/developer/workspace/languages-parser/scala-language/src/main/antlr/Scala.g4 by ANTLR 4.5
+// Generated from Scala.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.scala;
-import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**

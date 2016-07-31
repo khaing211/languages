@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/python3-language/src/main/antlr/Python3.g4 by ANTLR 4.5
+// Generated from Python3.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.python3;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class Python3Parser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -31,7 +31,7 @@ public class Python3Parser extends Parser {
 		AT=76, ARROW=77, ADD_ASSIGN=78, SUB_ASSIGN=79, MULT_ASSIGN=80, AT_ASSIGN=81, 
 		DIV_ASSIGN=82, MOD_ASSIGN=83, AND_ASSIGN=84, OR_ASSIGN=85, XOR_ASSIGN=86, 
 		LEFT_SHIFT_ASSIGN=87, RIGHT_SHIFT_ASSIGN=88, POWER_ASSIGN=89, IDIV_ASSIGN=90, 
-		SKIP=91, UNKNOWN_CHAR=92, INDENT=93, DEDENT=94;
+		SKIP_=91, UNKNOWN_CHAR=92, INDENT=93, DEDENT=94;
 	public static final int
 		RULE_single_input = 0, RULE_file_input = 1, RULE_eval_input = 2, RULE_decorator = 3, 
 		RULE_decorators = 4, RULE_decorated = 5, RULE_funcdef = 6, RULE_parameters = 7, 
@@ -100,7 +100,7 @@ public class Python3Parser extends Parser {
 		"NOT_EQ_1", "NOT_EQ_2", "AT", "ARROW", "ADD_ASSIGN", "SUB_ASSIGN", "MULT_ASSIGN", 
 		"AT_ASSIGN", "DIV_ASSIGN", "MOD_ASSIGN", "AND_ASSIGN", "OR_ASSIGN", "XOR_ASSIGN", 
 		"LEFT_SHIFT_ASSIGN", "RIGHT_SHIFT_ASSIGN", "POWER_ASSIGN", "IDIV_ASSIGN", 
-		"SKIP", "UNKNOWN_CHAR", "INDENT", "DEDENT"
+		"SKIP_", "UNKNOWN_CHAR", "INDENT", "DEDENT"
 	};
 	public static final Vocabulary VOCABULARY = new VocabularyImpl(_LITERAL_NAMES, _SYMBOLIC_NAMES);
 
@@ -1923,6 +1923,7 @@ public class Python3Parser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(418);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,47,_ctx) ) {
 			case 1:
 				{
@@ -1947,6 +1948,7 @@ public class Python3Parser extends Parser {
 					setState(420);
 					match(COMMA);
 					setState(423);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,48,_ctx) ) {
 					case 1:
 						{
@@ -2616,6 +2618,7 @@ public class Python3Parser extends Parser {
 			setState(472);
 			match(FROM);
 			setState(485);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,58,_ctx) ) {
 			case 1:
 				{
@@ -4662,6 +4665,7 @@ public class Python3Parser extends Parser {
 		enterRule(_localctx, 108, RULE_comp_op);
 		try {
 			setState(741);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,93,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -5949,6 +5953,7 @@ public class Python3Parser extends Parser {
 		int _la;
 		try {
 			setState(906);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,122,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -6246,6 +6251,7 @@ public class Python3Parser extends Parser {
 		try {
 			int _alt;
 			setState(967);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,134,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -6503,6 +6509,7 @@ public class Python3Parser extends Parser {
 				_alt = getInterpreter().adaptivePredict(_input,137,_ctx);
 			}
 			setState(1009);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,141,_ctx) ) {
 			case 1:
 				{
@@ -6615,6 +6622,7 @@ public class Python3Parser extends Parser {
 		int _la;
 		try {
 			setState(1019);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,143,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);

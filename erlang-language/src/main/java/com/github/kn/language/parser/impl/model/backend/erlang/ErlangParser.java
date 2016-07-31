@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/erlang-language/src/main/antlr/Erlang.g4 by ANTLR 4.5
+// Generated from Erlang.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.erlang;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class ErlangParser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -241,6 +241,7 @@ public class ErlangParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(212);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,1,_ctx) ) {
 			case 1:
 				{
@@ -566,6 +567,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 16, RULE_attribute);
 		try {
 			setState(244);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,2,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -729,6 +731,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 20, RULE_specFun);
 		try {
 			setState(273);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,4,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -825,6 +828,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 22, RULE_typedAttrVal);
 		try {
 			setState(283);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,5,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -946,6 +950,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 26, RULE_typedExprs);
 		try {
 			setState(302);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,6,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1412,6 +1417,7 @@ public class ErlangParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(351);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,12,_ctx) ) {
 			case 1:
 				{
@@ -1836,6 +1842,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 52, RULE_type);
 		try {
 			setState(461);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,18,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2083,6 +2090,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 54, RULE_funType100);
 		try {
 			setState(469);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,19,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2328,6 +2336,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 62, RULE_binaryType);
 		try {
 			setState(507);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,22,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2528,6 +2537,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 68, RULE_attrVal);
 		try {
 			setState(534);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,23,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3496,6 +3506,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 98, RULE_expr700);
 		try {
 			setState(628);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,35,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3657,6 +3668,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 102, RULE_exprMax);
 		try {
 			setState(655);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,37,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3808,6 +3820,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 104, RULE_list);
 		try {
 			setState(663);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,38,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3946,6 +3959,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 108, RULE_binary);
 		try {
 			setState(682);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,40,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -4638,6 +4652,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 132, RULE_lcExpr);
 		try {
 			setState(753);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,48,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -5485,6 +5500,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 158, RULE_receiveExpr);
 		try {
 			setState(859);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,59,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -5585,6 +5601,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 160, RULE_funExpr);
 		try {
 			setState(877);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,60,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -5977,6 +5994,7 @@ public class ErlangParser extends Parser {
 		enterRule(_localctx, 172, RULE_tryCatch);
 		try {
 			setState(921);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,65,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -6131,6 +6149,7 @@ public class ErlangParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(934);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,67,_ctx) ) {
 			case 1:
 				{

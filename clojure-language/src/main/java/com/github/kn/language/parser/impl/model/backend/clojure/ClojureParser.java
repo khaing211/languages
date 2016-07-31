@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/clojure-language/src/main/antlr/Clojure.g4 by ANTLR 4.5
+// Generated from Clojure.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.clojure;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class ClojureParser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -203,6 +203,7 @@ public class ClojureParser extends Parser {
 		enterRule(_localctx, 2, RULE_form);
 		try {
 			setState(97);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,1,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -592,6 +593,7 @@ public class ClojureParser extends Parser {
 		enterRule(_localctx, 14, RULE_reader_macro);
 		try {
 			setState(143);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,4,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2174,6 +2176,7 @@ public class ClojureParser extends Parser {
 		enterRule(_localctx, 72, RULE_keyword);
 		try {
 			setState(243);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,9,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);

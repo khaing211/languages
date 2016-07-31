@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/c-language/src/main/antlr/C.g4 by ANTLR 4.5
+// Generated from C.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.c;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class CParser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -221,6 +221,7 @@ public class CParser extends Parser {
 		try {
 			int _alt;
 			setState(201);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,2,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -634,6 +635,7 @@ public class CParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(264);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,5,_ctx) ) {
 			case 1:
 				{
@@ -724,6 +726,7 @@ public class CParser extends Parser {
 					_prevctx = _localctx;
 					{
 					setState(287);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,7,_ctx) ) {
 					case 1:
 						{
@@ -948,6 +951,7 @@ public class CParser extends Parser {
 		enterRule(_localctx, 12, RULE_unaryExpression);
 		try {
 			setState(325);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,10,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1121,6 +1125,7 @@ public class CParser extends Parser {
 		enterRule(_localctx, 16, RULE_castExpression);
 		try {
 			setState(341);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,11,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1225,6 +1230,7 @@ public class CParser extends Parser {
 					_prevctx = _localctx;
 					{
 					setState(355);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,12,_ctx) ) {
 					case 1:
 						{
@@ -1337,6 +1343,7 @@ public class CParser extends Parser {
 					_prevctx = _localctx;
 					{
 					setState(369);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,14,_ctx) ) {
 					case 1:
 						{
@@ -1437,6 +1444,7 @@ public class CParser extends Parser {
 					_prevctx = _localctx;
 					{
 					setState(383);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,16,_ctx) ) {
 					case 1:
 						{
@@ -1537,6 +1545,7 @@ public class CParser extends Parser {
 					_prevctx = _localctx;
 					{
 					setState(403);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,18,_ctx) ) {
 					case 1:
 						{
@@ -1661,6 +1670,7 @@ public class CParser extends Parser {
 					_prevctx = _localctx;
 					{
 					setState(417);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,20,_ctx) ) {
 					case 1:
 						{
@@ -2159,6 +2169,7 @@ public class CParser extends Parser {
 			setState(477);
 			logicalOrExpression(0);
 			setState(483);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,27,_ctx) ) {
 			case 1:
 				{
@@ -2223,6 +2234,7 @@ public class CParser extends Parser {
 		enterRule(_localctx, 40, RULE_assignmentExpression);
 		try {
 			setState(490);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,28,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2713,6 +2725,7 @@ public class CParser extends Parser {
 		enterRule(_localctx, 54, RULE_declarationSpecifier);
 		try {
 			setState(531);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,34,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2876,6 +2889,7 @@ public class CParser extends Parser {
 		enterRule(_localctx, 58, RULE_initDeclarator);
 		try {
 			setState(549);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,36,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3130,6 +3144,7 @@ public class CParser extends Parser {
 		int _la;
 		try {
 			setState(580);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,39,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3436,6 +3451,7 @@ public class CParser extends Parser {
 		enterRule(_localctx, 72, RULE_specifierQualifierList);
 		try {
 			setState(611);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,45,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3443,6 +3459,7 @@ public class CParser extends Parser {
 				setState(603);
 				typeSpecifier();
 				setState(605);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,43,_ctx) ) {
 				case 1:
 					{
@@ -3459,6 +3476,7 @@ public class CParser extends Parser {
 				setState(607);
 				typeQualifier();
 				setState(609);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,44,_ctx) ) {
 				case 1:
 					{
@@ -3597,6 +3615,7 @@ public class CParser extends Parser {
 		int _la;
 		try {
 			setState(630);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,48,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3666,6 +3685,7 @@ public class CParser extends Parser {
 		int _la;
 		try {
 			setState(651);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,51,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3849,6 +3869,7 @@ public class CParser extends Parser {
 		enterRule(_localctx, 82, RULE_enumerator);
 		try {
 			setState(669);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,53,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -4132,6 +4153,7 @@ public class CParser extends Parser {
 		enterRule(_localctx, 92, RULE_alignmentSpecifier);
 		try {
 			setState(698);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,55,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -4338,6 +4360,7 @@ public class CParser extends Parser {
 					_prevctx = _localctx;
 					{
 					setState(761);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,64,_ctx) ) {
 					case 1:
 						{
@@ -4657,6 +4680,7 @@ public class CParser extends Parser {
 		int _la;
 		try {
 			setState(793);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,69,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -5115,6 +5139,7 @@ public class CParser extends Parser {
 		int _la;
 		try {
 			setState(834);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,79,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -5122,6 +5147,7 @@ public class CParser extends Parser {
 				setState(816);
 				match(Star);
 				setState(818);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,75,_ctx) ) {
 				case 1:
 					{
@@ -5156,6 +5182,7 @@ public class CParser extends Parser {
 				setState(825);
 				match(Caret);
 				setState(827);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,77,_ctx) ) {
 				case 1:
 					{
@@ -5306,6 +5333,7 @@ public class CParser extends Parser {
 		enterRule(_localctx, 112, RULE_parameterTypeList);
 		try {
 			setState(851);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,81,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -5458,6 +5486,7 @@ public class CParser extends Parser {
 		enterRule(_localctx, 116, RULE_parameterDeclaration);
 		try {
 			setState(871);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,84,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -5474,6 +5503,7 @@ public class CParser extends Parser {
 				setState(867);
 				declarationSpecifiers2();
 				setState(869);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,83,_ctx) ) {
 				case 1:
 					{
@@ -5674,6 +5704,7 @@ public class CParser extends Parser {
 		try {
 			int _alt;
 			setState(899);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,89,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -5785,6 +5816,7 @@ public class CParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(947);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,96,_ctx) ) {
 			case 1:
 				{
@@ -5927,6 +5959,7 @@ public class CParser extends Parser {
 					_prevctx = _localctx;
 					{
 					setState(990);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,102,_ctx) ) {
 					case 1:
 						{
@@ -6145,6 +6178,7 @@ public class CParser extends Parser {
 		enterRule(_localctx, 128, RULE_initializer);
 		try {
 			setState(1007);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,104,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -6610,6 +6644,7 @@ public class CParser extends Parser {
 		int _la;
 		try {
 			setState(1096);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,116,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -7006,6 +7041,7 @@ public class CParser extends Parser {
 		enterRule(_localctx, 148, RULE_blockItem);
 		try {
 			setState(1129);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,120,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -7137,6 +7173,7 @@ public class CParser extends Parser {
 				setState(1140);
 				statement();
 				setState(1143);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,122,_ctx) ) {
 				case 1:
 					{
@@ -7217,6 +7254,7 @@ public class CParser extends Parser {
 		int _la;
 		try {
 			setState(1195);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,129,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -7377,6 +7415,7 @@ public class CParser extends Parser {
 		int _la;
 		try {
 			setState(1213);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,131,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -7616,6 +7655,7 @@ public class CParser extends Parser {
 		enterRule(_localctx, 162, RULE_externalDeclaration);
 		try {
 			setState(1233);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,134,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -7691,6 +7731,7 @@ public class CParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(1236);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,135,_ctx) ) {
 			case 1:
 				{

@@ -1,6 +1,5 @@
-// Generated from /home/developer/workspace/languages-parser/sqlite-language/src/main/antlr/Sqlite.g4 by ANTLR 4.5
+// Generated from Sqlite.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.sqlite;
-import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**

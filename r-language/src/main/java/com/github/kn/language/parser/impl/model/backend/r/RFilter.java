@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/r-language/src/main/antlr/RFilter.g4 by ANTLR 4.5
+// Generated from RFilter.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.r;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class RFilter extends Parser {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -390,6 +390,7 @@ public class RFilter extends Parser {
 				setState(26);
 				op();
 				setState(28);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,3,_ctx) ) {
 				case 1:
 					{
@@ -426,6 +427,7 @@ public class RFilter extends Parser {
 				setState(31);
 				match(T__35);
 				setState(33);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,4,_ctx) ) {
 				case 1:
 					{
@@ -894,6 +896,7 @@ public class RFilter extends Parser {
 				setState(86);
 				match(T__34);
 				setState(88);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,16,_ctx) ) {
 				case 1:
 					{
@@ -1003,6 +1006,7 @@ public class RFilter extends Parser {
 				setState(102);
 				match(T__34);
 				setState(104);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,20,_ctx) ) {
 				case 1:
 					{
@@ -1112,6 +1116,7 @@ public class RFilter extends Parser {
 				setState(118);
 				match(T__34);
 				setState(120);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,24,_ctx) ) {
 				case 1:
 					{
@@ -1221,6 +1226,7 @@ public class RFilter extends Parser {
 				setState(134);
 				match(T__34);
 				setState(136);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,28,_ctx) ) {
 				case 1:
 					{

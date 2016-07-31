@@ -1,6 +1,5 @@
-// Generated from /home/developer/workspace/languages-parser/bnf-language/src/main/antlr/Bnf.g4 by ANTLR 4.5
+// Generated from Bnf.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.bnf;
-import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**

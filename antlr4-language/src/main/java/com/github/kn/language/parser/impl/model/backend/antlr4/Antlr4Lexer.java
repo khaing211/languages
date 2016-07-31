@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/antlr4-language/src/main/antlr/Antlr4Lexer.g4 by ANTLR 4.5
+// Generated from Antlr4Lexer.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.antlr4;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
@@ -11,7 +11,7 @@ import org.antlr.v4.runtime.misc.*;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class Antlr4Lexer extends Lexer {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =

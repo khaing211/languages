@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/less-language/src/main/antlr/LessParser.g4 by ANTLR 4.5
+// Generated from LessParser.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.less;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class LessParser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -249,6 +249,7 @@ public class LessParser extends Parser {
 		enterRule(_localctx, 2, RULE_statement);
 		try {
 			setState(82);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,1,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -323,6 +324,7 @@ public class LessParser extends Parser {
 		enterRule(_localctx, 4, RULE_variableName);
 		try {
 			setState(88);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,2,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -575,6 +577,7 @@ public class LessParser extends Parser {
 		int _la;
 		try {
 			setState(116);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,6,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -897,6 +900,7 @@ public class LessParser extends Parser {
 		int _la;
 		try {
 			setState(149);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,10,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1284,6 +1288,7 @@ public class LessParser extends Parser {
 				if ( _alt==1 ) {
 					{
 					setState(185);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,14,_ctx) ) {
 					case 1:
 						{
@@ -1523,6 +1528,7 @@ public class LessParser extends Parser {
 		enterRule(_localctx, 38, RULE_mixinDefinitionParam);
 		try {
 			setState(221);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,21,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);

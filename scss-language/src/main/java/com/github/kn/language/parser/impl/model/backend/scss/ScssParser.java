@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/scss-language/src/main/antlr/ScssParser.g4 by ANTLR 4.5
+// Generated from ScssParser.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.scss;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class ScssParser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -735,6 +735,7 @@ public class ScssParser extends Parser {
 			case Color:
 				{
 				setState(169);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,10,_ctx) ) {
 				case 1:
 					{
@@ -1015,6 +1016,7 @@ public class ScssParser extends Parser {
 		enterRule(_localctx, 22, RULE_functionStatement);
 		try {
 			setState(205);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,16,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1290,6 +1292,7 @@ public class ScssParser extends Parser {
 		enterRule(_localctx, 30, RULE_expression);
 		try {
 			setState(234);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,20,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1583,6 +1586,7 @@ public class ScssParser extends Parser {
 		enterRule(_localctx, 38, RULE_conditions);
 		try {
 			setState(262);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,24,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1590,6 +1594,7 @@ public class ScssParser extends Parser {
 				setState(256);
 				condition();
 				setState(259);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,23,_ctx) ) {
 				case 1:
 					{
@@ -1657,6 +1662,7 @@ public class ScssParser extends Parser {
 		int _la;
 		try {
 			setState(273);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,26,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2733,6 +2739,7 @@ public class ScssParser extends Parser {
 				if ( _alt==1 ) {
 					{
 					setState(395);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,39,_ctx) ) {
 					case 1:
 						{
@@ -3127,6 +3134,7 @@ public class ScssParser extends Parser {
 		int _la;
 		try {
 			setState(450);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,48,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);

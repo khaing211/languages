@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/sqlite-language/src/main/antlr/Sqlite.g4 by ANTLR 4.5
+// Generated from Sqlite.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.sqlite;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class SqliteParser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -573,6 +573,7 @@ public class SqliteParser extends Parser {
 			}
 
 			setState(237);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,8,_ctx) ) {
 			case 1:
 				{
@@ -817,6 +818,7 @@ public class SqliteParser extends Parser {
 			setState(240);
 			match(K_TABLE);
 			setState(244);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,9,_ctx) ) {
 			case 1:
 				{
@@ -846,6 +848,7 @@ public class SqliteParser extends Parser {
 				setState(250);
 				match(K_ADD);
 				setState(252);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,10,_ctx) ) {
 				case 1:
 					{
@@ -910,6 +913,7 @@ public class SqliteParser extends Parser {
 			setState(257);
 			match(K_ANALYZE);
 			setState(264);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,12,_ctx) ) {
 			case 1:
 				{
@@ -985,6 +989,7 @@ public class SqliteParser extends Parser {
 			setState(266);
 			match(K_ATTACH);
 			setState(268);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,13,_ctx) ) {
 			case 1:
 				{
@@ -1070,6 +1075,7 @@ public class SqliteParser extends Parser {
 				setState(278);
 				match(K_TRANSACTION);
 				setState(280);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,15,_ctx) ) {
 				case 1:
 					{
@@ -1141,6 +1147,7 @@ public class SqliteParser extends Parser {
 				setState(285);
 				match(K_TRANSACTION);
 				setState(287);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,17,_ctx) ) {
 				case 1:
 					{
@@ -1245,6 +1252,7 @@ public class SqliteParser extends Parser {
 				setState(291);
 				match(K_WITH);
 				setState(293);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,19,_ctx) ) {
 				case 1:
 					{
@@ -1458,6 +1466,7 @@ public class SqliteParser extends Parser {
 			setState(343);
 			match(K_INDEX);
 			setState(347);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,30,_ctx) ) {
 			case 1:
 				{
@@ -1471,6 +1480,7 @@ public class SqliteParser extends Parser {
 				break;
 			}
 			setState(352);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,31,_ctx) ) {
 			case 1:
 				{
@@ -1611,6 +1621,7 @@ public class SqliteParser extends Parser {
 			setState(375);
 			match(K_TABLE);
 			setState(379);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,35,_ctx) ) {
 			case 1:
 				{
@@ -1624,6 +1635,7 @@ public class SqliteParser extends Parser {
 				break;
 			}
 			setState(384);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,36,_ctx) ) {
 			case 1:
 				{
@@ -1832,6 +1844,7 @@ public class SqliteParser extends Parser {
 			setState(416);
 			match(K_TRIGGER);
 			setState(420);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,42,_ctx) ) {
 			case 1:
 				{
@@ -1845,6 +1858,7 @@ public class SqliteParser extends Parser {
 				break;
 			}
 			setState(425);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,43,_ctx) ) {
 			case 1:
 				{
@@ -1939,6 +1953,7 @@ public class SqliteParser extends Parser {
 			setState(450);
 			match(K_ON);
 			setState(454);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,48,_ctx) ) {
 			case 1:
 				{
@@ -1984,6 +1999,7 @@ public class SqliteParser extends Parser {
 				{
 				{
 				setState(471);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,51,_ctx) ) {
 				case 1:
 					{
@@ -2096,6 +2112,7 @@ public class SqliteParser extends Parser {
 			setState(485);
 			match(K_VIEW);
 			setState(489);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,54,_ctx) ) {
 			case 1:
 				{
@@ -2109,6 +2126,7 @@ public class SqliteParser extends Parser {
 				break;
 			}
 			setState(494);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,55,_ctx) ) {
 			case 1:
 				{
@@ -2194,6 +2212,7 @@ public class SqliteParser extends Parser {
 			setState(502);
 			match(K_TABLE);
 			setState(506);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,56,_ctx) ) {
 			case 1:
 				{
@@ -2207,6 +2226,7 @@ public class SqliteParser extends Parser {
 				break;
 			}
 			setState(511);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,57,_ctx) ) {
 			case 1:
 				{
@@ -2524,6 +2544,7 @@ public class SqliteParser extends Parser {
 			setState(569);
 			match(K_DETACH);
 			setState(571);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,68,_ctx) ) {
 			case 1:
 				{
@@ -2588,6 +2609,7 @@ public class SqliteParser extends Parser {
 			setState(576);
 			match(K_INDEX);
 			setState(579);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,69,_ctx) ) {
 			case 1:
 				{
@@ -2599,6 +2621,7 @@ public class SqliteParser extends Parser {
 				break;
 			}
 			setState(584);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,70,_ctx) ) {
 			case 1:
 				{
@@ -2665,6 +2688,7 @@ public class SqliteParser extends Parser {
 			setState(589);
 			match(K_TABLE);
 			setState(592);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,71,_ctx) ) {
 			case 1:
 				{
@@ -2676,6 +2700,7 @@ public class SqliteParser extends Parser {
 				break;
 			}
 			setState(597);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,72,_ctx) ) {
 			case 1:
 				{
@@ -2742,6 +2767,7 @@ public class SqliteParser extends Parser {
 			setState(602);
 			match(K_TRIGGER);
 			setState(605);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,73,_ctx) ) {
 			case 1:
 				{
@@ -2753,6 +2779,7 @@ public class SqliteParser extends Parser {
 				break;
 			}
 			setState(610);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,74,_ctx) ) {
 			case 1:
 				{
@@ -2819,6 +2846,7 @@ public class SqliteParser extends Parser {
 			setState(615);
 			match(K_VIEW);
 			setState(618);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,75,_ctx) ) {
 			case 1:
 				{
@@ -2830,6 +2858,7 @@ public class SqliteParser extends Parser {
 				break;
 			}
 			setState(623);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,76,_ctx) ) {
 			case 1:
 				{
@@ -2925,6 +2954,7 @@ public class SqliteParser extends Parser {
 				setState(627);
 				match(K_WITH);
 				setState(629);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,77,_ctx) ) {
 				case 1:
 					{
@@ -3112,6 +3142,7 @@ public class SqliteParser extends Parser {
 			}
 
 			setState(690);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,86,_ctx) ) {
 			case 1:
 				{
@@ -3179,6 +3210,7 @@ public class SqliteParser extends Parser {
 			setState(692);
 			match(K_INTO);
 			setState(696);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,87,_ctx) ) {
 			case 1:
 				{
@@ -3221,6 +3253,7 @@ public class SqliteParser extends Parser {
 			}
 
 			setState(743);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,93,_ctx) ) {
 			case 1:
 				{
@@ -3353,6 +3386,7 @@ public class SqliteParser extends Parser {
 			setState(745);
 			match(K_PRAGMA);
 			setState(749);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,94,_ctx) ) {
 			case 1:
 				{
@@ -3470,6 +3504,7 @@ public class SqliteParser extends Parser {
 			setState(760);
 			match(K_REINDEX);
 			setState(771);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,98,_ctx) ) {
 			case 1:
 				{
@@ -3480,6 +3515,7 @@ public class SqliteParser extends Parser {
 			case 2:
 				{
 				setState(765);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,96,_ctx) ) {
 				case 1:
 					{
@@ -3491,6 +3527,7 @@ public class SqliteParser extends Parser {
 					break;
 				}
 				setState(769);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,97,_ctx) ) {
 				case 1:
 					{
@@ -3555,6 +3592,7 @@ public class SqliteParser extends Parser {
 			setState(773);
 			match(K_RELEASE);
 			setState(775);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,99,_ctx) ) {
 			case 1:
 				{
@@ -3624,6 +3662,7 @@ public class SqliteParser extends Parser {
 				setState(780);
 				match(K_TRANSACTION);
 				setState(782);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,100,_ctx) ) {
 				case 1:
 					{
@@ -3642,6 +3681,7 @@ public class SqliteParser extends Parser {
 				setState(786);
 				match(K_TO);
 				setState(788);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,102,_ctx) ) {
 				case 1:
 					{
@@ -3776,6 +3816,7 @@ public class SqliteParser extends Parser {
 				setState(796);
 				match(K_WITH);
 				setState(798);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,104,_ctx) ) {
 				case 1:
 					{
@@ -3946,6 +3987,7 @@ public class SqliteParser extends Parser {
 				setState(831);
 				match(K_WITH);
 				setState(833);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,111,_ctx) ) {
 				case 1:
 					{
@@ -4125,6 +4167,7 @@ public class SqliteParser extends Parser {
 				setState(874);
 				match(K_SELECT);
 				setState(876);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,119,_ctx) ) {
 				case 1:
 					{
@@ -4163,6 +4206,7 @@ public class SqliteParser extends Parser {
 					setState(886);
 					match(K_FROM);
 					setState(896);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,122,_ctx) ) {
 					case 1:
 						{
@@ -4395,6 +4439,7 @@ public class SqliteParser extends Parser {
 			setState(953);
 			match(K_UPDATE);
 			setState(964);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,133,_ctx) ) {
 			case 1:
 				{
@@ -4567,6 +4612,7 @@ public class SqliteParser extends Parser {
 			setState(988);
 			match(K_UPDATE);
 			setState(999);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,137,_ctx) ) {
 			case 1:
 				{
@@ -4803,6 +4849,7 @@ public class SqliteParser extends Parser {
 			setState(1042);
 			column_name();
 			setState(1044);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,144,_ctx) ) {
 			case 1:
 				{
@@ -4898,6 +4945,7 @@ public class SqliteParser extends Parser {
 				_alt = getInterpreter().adaptivePredict(_input,146,_ctx);
 			} while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER );
 			setState(1067);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,147,_ctx) ) {
 			case 1:
 				{
@@ -5086,6 +5134,7 @@ public class SqliteParser extends Parser {
 				setState(1094);
 				match(K_DEFAULT);
 				setState(1101);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,152,_ctx) ) {
 				case 1:
 					{
@@ -5208,15 +5257,6 @@ public class SqliteParser extends Parser {
 	}
 
 	public static class ExprContext extends ParserRuleContext {
-		public Unary_operatorContext unary_operator() {
-			return getRuleContext(Unary_operatorContext.class,0);
-		}
-		public List<ExprContext> expr() {
-			return getRuleContexts(ExprContext.class);
-		}
-		public ExprContext expr(int i) {
-			return getRuleContext(ExprContext.class,i);
-		}
 		public Literal_valueContext literal_value() {
 			return getRuleContext(Literal_valueContext.class,0);
 		}
@@ -5229,6 +5269,15 @@ public class SqliteParser extends Parser {
 		}
 		public Database_nameContext database_name() {
 			return getRuleContext(Database_nameContext.class,0);
+		}
+		public Unary_operatorContext unary_operator() {
+			return getRuleContext(Unary_operatorContext.class,0);
+		}
+		public List<ExprContext> expr() {
+			return getRuleContexts(ExprContext.class);
+		}
+		public ExprContext expr(int i) {
+			return getRuleContext(ExprContext.class,i);
 		}
 		public Function_nameContext function_name() {
 			return getRuleContext(Function_nameContext.class,0);
@@ -5311,53 +5360,56 @@ public class SqliteParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(1189);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,165,_ctx) ) {
 			case 1:
 				{
 				setState(1114);
-				unary_operator();
-				setState(1115);
-				expr(21);
+				literal_value();
 				}
 				break;
 			case 2:
 				{
-				setState(1117);
-				literal_value();
+				setState(1115);
+				match(BIND_PARAMETER);
 				}
 				break;
 			case 3:
 				{
-				setState(1118);
-				match(BIND_PARAMETER);
+				setState(1124);
+				_errHandler.sync(this);
+				switch ( getInterpreter().adaptivePredict(_input,156,_ctx) ) {
+				case 1:
+					{
+					setState(1119);
+					_errHandler.sync(this);
+					switch ( getInterpreter().adaptivePredict(_input,155,_ctx) ) {
+					case 1:
+						{
+						setState(1116);
+						database_name();
+						setState(1117);
+						match(DOT);
+						}
+						break;
+					}
+					setState(1121);
+					table_name();
+					setState(1122);
+					match(DOT);
+					}
+					break;
+				}
+				setState(1126);
+				column_name();
 				}
 				break;
 			case 4:
 				{
 				setState(1127);
-				switch ( getInterpreter().adaptivePredict(_input,156,_ctx) ) {
-				case 1:
-					{
-					setState(1122);
-					switch ( getInterpreter().adaptivePredict(_input,155,_ctx) ) {
-					case 1:
-						{
-						setState(1119);
-						database_name();
-						setState(1120);
-						match(DOT);
-						}
-						break;
-					}
-					setState(1124);
-					table_name();
-					setState(1125);
-					match(DOT);
-					}
-					break;
-				}
-				setState(1129);
-				column_name();
+				unary_operator();
+				setState(1128);
+				expr(21);
 				}
 				break;
 			case 5:
@@ -5503,6 +5555,7 @@ public class SqliteParser extends Parser {
 				case BLOB_LITERAL:
 					{
 					setState(1133);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,157,_ctx) ) {
 					case 1:
 						{
@@ -5605,6 +5658,7 @@ public class SqliteParser extends Parser {
 				setState(1169);
 				match(K_CASE);
 				setState(1171);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,162,_ctx) ) {
 				case 1:
 					{
@@ -5665,6 +5719,7 @@ public class SqliteParser extends Parser {
 					_prevctx = _localctx;
 					{
 					setState(1289);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,177,_ctx) ) {
 					case 1:
 						{
@@ -5753,6 +5808,7 @@ public class SqliteParser extends Parser {
 						setState(1206);
 						if (!(precpred(_ctx, 15))) throw new FailedPredicateException(this, "precpred(_ctx, 15)");
 						setState(1219);
+						_errHandler.sync(this);
 						switch ( getInterpreter().adaptivePredict(_input,166,_ctx) ) {
 						case 1:
 							{
@@ -5860,6 +5916,7 @@ public class SqliteParser extends Parser {
 						setState(1229);
 						match(K_IS);
 						setState(1231);
+						_errHandler.sync(this);
 						switch ( getInterpreter().adaptivePredict(_input,167,_ctx) ) {
 						case 1:
 							{
@@ -5934,6 +5991,7 @@ public class SqliteParser extends Parser {
 						setState(1251);
 						expr(0);
 						setState(1254);
+						_errHandler.sync(this);
 						switch ( getInterpreter().adaptivePredict(_input,170,_ctx) ) {
 						case 1:
 							{
@@ -5997,12 +6055,14 @@ public class SqliteParser extends Parser {
 						setState(1267);
 						match(K_IN);
 						setState(1287);
+						_errHandler.sync(this);
 						switch ( getInterpreter().adaptivePredict(_input,176,_ctx) ) {
 						case 1:
 							{
 							setState(1268);
 							match(OPEN_PAR);
 							setState(1278);
+							_errHandler.sync(this);
 							switch ( getInterpreter().adaptivePredict(_input,174,_ctx) ) {
 							case 1:
 								{
@@ -6040,6 +6100,7 @@ public class SqliteParser extends Parser {
 						case 2:
 							{
 							setState(1284);
+							_errHandler.sync(this);
 							switch ( getInterpreter().adaptivePredict(_input,175,_ctx) ) {
 							case 1:
 								{
@@ -6222,6 +6283,7 @@ public class SqliteParser extends Parser {
 						consume();
 					}
 					setState(1319);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,181,_ctx) ) {
 					case 1:
 						{
@@ -6280,6 +6342,7 @@ public class SqliteParser extends Parser {
 				_la = _input.LA(1);
 			}
 			setState(1340);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,186,_ctx) ) {
 			case 1:
 				{
@@ -6295,6 +6358,7 @@ public class SqliteParser extends Parser {
 				setState(1333);
 				match(K_DEFERRABLE);
 				setState(1338);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,185,_ctx) ) {
 				case 1:
 					{
@@ -6713,6 +6777,7 @@ public class SqliteParser extends Parser {
 			setState(1402);
 			match(K_WITH);
 			setState(1404);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,195,_ctx) ) {
 			case 1:
 				{
@@ -6807,6 +6872,7 @@ public class SqliteParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(1426);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,197,_ctx) ) {
 			case 1:
 				{
@@ -6994,6 +7060,7 @@ public class SqliteParser extends Parser {
 		enterRule(_localctx, 94, RULE_pragma_value);
 		try {
 			setState(1447);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,201,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -7157,6 +7224,7 @@ public class SqliteParser extends Parser {
 		int _la;
 		try {
 			setState(1480);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,206,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -7268,11 +7336,13 @@ public class SqliteParser extends Parser {
 		int _la;
 		try {
 			setState(1529);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,217,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
 				{
 				setState(1485);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,207,_ctx) ) {
 				case 1:
 					{
@@ -7286,10 +7356,12 @@ public class SqliteParser extends Parser {
 				setState(1487);
 				table_name();
 				setState(1492);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,209,_ctx) ) {
 				case 1:
 					{
 					setState(1489);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,208,_ctx) ) {
 					case 1:
 						{
@@ -7377,6 +7449,7 @@ public class SqliteParser extends Parser {
 				setState(1501);
 				match(OPEN_PAR);
 				setState(1511);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,212,_ctx) ) {
 				case 1:
 					{
@@ -7410,10 +7483,12 @@ public class SqliteParser extends Parser {
 				setState(1513);
 				match(CLOSE_PAR);
 				setState(1518);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,214,_ctx) ) {
 				case 1:
 					{
 					setState(1515);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,213,_ctx) ) {
 					case 1:
 						{
@@ -7439,10 +7514,12 @@ public class SqliteParser extends Parser {
 				setState(1522);
 				match(CLOSE_PAR);
 				setState(1527);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,216,_ctx) ) {
 				case 1:
 					{
 					setState(1524);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,215,_ctx) ) {
 					case 1:
 						{
@@ -7854,6 +7931,7 @@ public class SqliteParser extends Parser {
 				setState(1572);
 				match(K_SELECT);
 				setState(1574);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,225,_ctx) ) {
 				case 1:
 					{
@@ -7892,6 +7970,7 @@ public class SqliteParser extends Parser {
 					setState(1584);
 					match(K_FROM);
 					setState(1594);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,228,_ctx) ) {
 					case 1:
 						{
@@ -8087,6 +8166,7 @@ public class SqliteParser extends Parser {
 		enterRule(_localctx, 110, RULE_compound_operator);
 		try {
 			setState(1653);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,238,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -8443,6 +8523,7 @@ public class SqliteParser extends Parser {
 		enterRule(_localctx, 122, RULE_module_argument);
 		try {
 			setState(1682);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,242,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -9770,21 +9851,21 @@ public class SqliteParser extends Parser {
 		"\3&\3&\3&\3&\3&\3&\3&\5&\u042e\n&\3\'\3\'\5\'\u0432\n\'\3\'\3\'\3\'\5"+
 		"\'\u0437\n\'\3\'\3\'\5\'\u043b\n\'\3\'\5\'\u043e\n\'\3\'\3\'\3\'\3\'\3"+
 		"\'\3\'\3\'\3\'\3\'\3\'\3\'\3\'\3\'\3\'\3\'\3\'\5\'\u0450\n\'\3\'\3\'\3"+
-		"\'\5\'\u0455\n\'\3(\3(\3(\5(\u045a\n(\3)\3)\3)\3)\3)\3)\3)\3)\3)\5)\u0465"+
-		"\n)\3)\3)\3)\5)\u046a\n)\3)\3)\3)\3)\5)\u0470\n)\3)\3)\3)\7)\u0475\n)"+
-		"\f)\16)\u0478\13)\3)\5)\u047b\n)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3"+
-		")\3)\5)\u048b\n)\3)\5)\u048e\n)\3)\3)\3)\3)\3)\3)\5)\u0496\n)\3)\3)\3"+
-		")\3)\3)\6)\u049d\n)\r)\16)\u049e\3)\3)\5)\u04a3\n)\3)\3)\3)\5)\u04a8\n"+
-		")\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3"+
-		")\3)\3)\3)\3)\3)\5)\u04c6\n)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\5)\u04d2\n"+
-		")\3)\3)\3)\5)\u04d7\n)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\5)\u04e3\n)\3)\3"+
-		")\3)\3)\5)\u04e9\n)\3)\3)\3)\3)\3)\5)\u04f0\n)\3)\3)\5)\u04f4\n)\3)\3"+
-		")\3)\3)\3)\3)\7)\u04fc\n)\f)\16)\u04ff\13)\5)\u0501\n)\3)\3)\3)\3)\5)"+
-		"\u0507\n)\3)\5)\u050a\n)\7)\u050c\n)\f)\16)\u050f\13)\3*\3*\3*\3*\3*\3"+
-		"*\7*\u0517\n*\f*\16*\u051a\13*\3*\3*\5*\u051e\n*\3*\3*\3*\3*\3*\3*\3*"+
-		"\3*\3*\3*\5*\u052a\n*\3*\3*\5*\u052e\n*\7*\u0530\n*\f*\16*\u0533\13*\3"+
-		"*\5*\u0536\n*\3*\3*\3*\3*\3*\5*\u053d\n*\5*\u053f\n*\3+\3+\3+\3+\3+\3"+
-		"+\5+\u0547\n+\3+\3+\3,\3,\3,\5,\u054e\n,\3,\5,\u0551\n,\3-\3-\5-\u0555"+
+		"\'\5\'\u0455\n\'\3(\3(\3(\5(\u045a\n(\3)\3)\3)\3)\3)\3)\5)\u0462\n)\3"+
+		")\3)\3)\5)\u0467\n)\3)\3)\3)\3)\3)\3)\3)\5)\u0470\n)\3)\3)\3)\7)\u0475"+
+		"\n)\f)\16)\u0478\13)\3)\5)\u047b\n)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3"+
+		")\3)\3)\5)\u048b\n)\3)\5)\u048e\n)\3)\3)\3)\3)\3)\3)\5)\u0496\n)\3)\3"+
+		")\3)\3)\3)\6)\u049d\n)\r)\16)\u049e\3)\3)\5)\u04a3\n)\3)\3)\3)\5)\u04a8"+
+		"\n)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)"+
+		"\3)\3)\3)\3)\3)\3)\5)\u04c6\n)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\5)\u04d2"+
+		"\n)\3)\3)\3)\5)\u04d7\n)\3)\3)\3)\3)\3)\3)\3)\3)\3)\3)\5)\u04e3\n)\3)"+
+		"\3)\3)\3)\5)\u04e9\n)\3)\3)\3)\3)\3)\5)\u04f0\n)\3)\3)\5)\u04f4\n)\3)"+
+		"\3)\3)\3)\3)\3)\7)\u04fc\n)\f)\16)\u04ff\13)\5)\u0501\n)\3)\3)\3)\3)\5"+
+		")\u0507\n)\3)\5)\u050a\n)\7)\u050c\n)\f)\16)\u050f\13)\3*\3*\3*\3*\3*"+
+		"\3*\7*\u0517\n*\f*\16*\u051a\13*\3*\3*\5*\u051e\n*\3*\3*\3*\3*\3*\3*\3"+
+		"*\3*\3*\3*\5*\u052a\n*\3*\3*\5*\u052e\n*\7*\u0530\n*\f*\16*\u0533\13*"+
+		"\3*\5*\u0536\n*\3*\3*\3*\3*\3*\5*\u053d\n*\5*\u053f\n*\3+\3+\3+\3+\3+"+
+		"\3+\5+\u0547\n+\3+\3+\3,\3,\3,\5,\u054e\n,\3,\5,\u0551\n,\3-\3-\5-\u0555"+
 		"\n-\3-\3-\3-\5-\u055a\n-\3-\3-\3-\3-\7-\u0560\n-\f-\16-\u0563\13-\3-\3"+
 		"-\3-\3-\3-\3-\3-\3-\3-\3-\3-\3-\3-\3-\7-\u0573\n-\f-\16-\u0576\13-\3-"+
 		"\3-\3-\5-\u057b\n-\3.\3.\5.\u057f\n.\3.\3.\3.\3.\3.\3.\3.\3.\3.\3.\3."+
@@ -10163,13 +10244,13 @@ public class SqliteParser extends Parser {
 		"\2\2\u0454\u043d\3\2\2\2\u0454\u0441\3\2\2\2\u0454\u0443\3\2\2\2\u0454"+
 		"\u0448\3\2\2\2\u0454\u0451\3\2\2\2\u0454\u0453\3\2\2\2\u0455M\3\2\2\2"+
 		"\u0456\u0457\7m\2\2\u0457\u0458\7\62\2\2\u0458\u045a\t\b\2\2\u0459\u0456"+
-		"\3\2\2\2\u0459\u045a\3\2\2\2\u045aO\3\2\2\2\u045b\u045c\b)\1\2\u045c\u045d"+
-		"\5x=\2\u045d\u045e\5P)\27\u045e\u04a8\3\2\2\2\u045f\u04a8\5v<\2\u0460"+
-		"\u04a8\7\u0099\2\2\u0461\u0462\5\u0086D\2\u0462\u0463\7\4\2\2\u0463\u0465"+
-		"\3\2\2\2\u0464\u0461\3\2\2\2\u0464\u0465\3\2\2\2\u0465\u0466\3\2\2\2\u0466"+
-		"\u0467\5\u0088E\2\u0467\u0468\7\4\2\2\u0468\u046a\3\2\2\2\u0469\u0464"+
-		"\3\2\2\2\u0469\u046a\3\2\2\2\u046a\u046b\3\2\2\2\u046b\u04a8\5\u008eH"+
-		"\2\u046c\u046d\5\u0084C\2\u046d\u047a\7\5\2\2\u046e\u0470\7@\2\2\u046f"+
+		"\3\2\2\2\u0459\u045a\3\2\2\2\u045aO\3\2\2\2\u045b\u045c\b)\1\2\u045c\u04a8"+
+		"\5v<\2\u045d\u04a8\7\u0099\2\2\u045e\u045f\5\u0086D\2\u045f\u0460\7\4"+
+		"\2\2\u0460\u0462\3\2\2\2\u0461\u045e\3\2\2\2\u0461\u0462\3\2\2\2\u0462"+
+		"\u0463\3\2\2\2\u0463\u0464\5\u0088E\2\u0464\u0465\7\4\2\2\u0465\u0467"+
+		"\3\2\2\2\u0466\u0461\3\2\2\2\u0466\u0467\3\2\2\2\u0467\u0468\3\2\2\2\u0468"+
+		"\u04a8\5\u008eH\2\u0469\u046a\5x=\2\u046a\u046b\5P)\27\u046b\u04a8\3\2"+
+		"\2\2\u046c\u046d\5\u0084C\2\u046d\u047a\7\5\2\2\u046e\u0470\7@\2\2\u046f"+
 		"\u046e\3\2\2\2\u046f\u0470\3\2\2\2\u0470\u0471\3\2\2\2\u0471\u0476\5P"+
 		")\2\u0472\u0473\7\7\2\2\u0473\u0475\5P)\2\u0474\u0472\3\2\2\2\u0475\u0478"+
 		"\3\2\2\2\u0476\u0474\3\2\2\2\u0476\u0477\3\2\2\2\u0477\u047b\3\2\2\2\u0478"+
@@ -10188,7 +10269,7 @@ public class SqliteParser extends Parser {
 		"\u049c\3\2\2\2\u049e\u049f\3\2\2\2\u049f\u04a2\3\2\2\2\u04a0\u04a1\7C"+
 		"\2\2\u04a1\u04a3\5P)\2\u04a2\u04a0\3\2\2\2\u04a2\u04a3\3\2\2\2\u04a3\u04a4"+
 		"\3\2\2\2\u04a4\u04a5\7D\2\2\u04a5\u04a8\3\2\2\2\u04a6\u04a8\5T+\2\u04a7"+
-		"\u045b\3\2\2\2\u04a7\u045f\3\2\2\2\u04a7\u0460\3\2\2\2\u04a7\u0469\3\2"+
+		"\u045b\3\2\2\2\u04a7\u045d\3\2\2\2\u04a7\u0466\3\2\2\2\u04a7\u0469\3\2"+
 		"\2\2\u04a7\u046c\3\2\2\2\u04a7\u047e\3\2\2\2\u04a7\u0482\3\2\2\2\u04a7"+
 		"\u048d\3\2\2\2\u04a7\u0493\3\2\2\2\u04a7\u04a6\3\2\2\2\u04a8\u050d\3\2"+
 		"\2\2\u04a9\u04aa\f\26\2\2\u04aa\u04ab\7\r\2\2\u04ab\u050c\5P)\27\u04ac"+
@@ -10389,7 +10470,7 @@ public class SqliteParser extends Parser {
 		"\u035f\u0362\u0368\u036a\u036e\u0375\u037e\u0382\u0384\u0388\u0391\u0396"+
 		"\u0398\u03a1\u03ac\u03b3\u03b6\u03b9\u03c6\u03d4\u03d9\u03dc\u03e9\u03f7"+
 		"\u03fc\u0405\u0408\u040e\u0410\u0416\u041b\u0421\u042d\u0431\u0436\u043a"+
-		"\u043d\u044f\u0454\u0459\u0464\u0469\u046f\u0476\u047a\u048a\u048d\u0495"+
+		"\u043d\u044f\u0454\u0459\u0461\u0466\u046f\u0476\u047a\u048a\u048d\u0495"+
 		"\u049e\u04a2\u04a7\u04c5\u04d1\u04d6\u04e2\u04e8\u04ef\u04f3\u04fd\u0500"+
 		"\u0506\u0509\u050b\u050d\u0518\u051d\u0529\u052d\u0531\u0535\u053c\u053e"+
 		"\u0546\u054d\u0550\u0554\u0559\u0561\u0574\u057a\u057e\u058e\u0594\u059c"+

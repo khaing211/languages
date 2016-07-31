@@ -1,4 +1,4 @@
-// Generated from /home/developer/workspace/languages-parser/swift-language/src/main/antlr/Swift.g4 by ANTLR 4.5
+// Generated from Swift.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.swift;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class SwiftParser extends Parser {
-	static { RuntimeMetaData.checkVersion("4.5", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.5.3", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -289,6 +289,7 @@ public class SwiftParser extends Parser {
 			while ((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << T__1) | (1L << T__3) | (1L << T__4) | (1L << T__5) | (1L << T__7) | (1L << T__8) | (1L << T__15) | (1L << T__16) | (1L << T__17) | (1L << T__18) | (1L << T__19) | (1L << T__20) | (1L << T__22) | (1L << T__23) | (1L << T__24) | (1L << T__25) | (1L << T__26) | (1L << T__27) | (1L << T__28) | (1L << T__29) | (1L << T__30) | (1L << T__31) | (1L << T__32) | (1L << T__33) | (1L << T__35) | (1L << T__36) | (1L << T__37) | (1L << T__38) | (1L << T__39) | (1L << T__40) | (1L << T__41) | (1L << T__42) | (1L << T__43) | (1L << T__44) | (1L << T__46) | (1L << T__49) | (1L << T__51) | (1L << T__52) | (1L << T__53) | (1L << T__54) | (1L << T__55) | (1L << T__56) | (1L << T__57) | (1L << T__58) | (1L << T__59) | (1L << T__60) | (1L << T__61) | (1L << T__62))) != 0) || ((((_la - 64)) & ~0x3f) == 0 && ((1L << (_la - 64)) & ((1L << (T__63 - 64)) | (1L << (T__64 - 64)) | (1L << (T__65 - 64)) | (1L << (T__68 - 64)) | (1L << (T__69 - 64)) | (1L << (T__71 - 64)) | (1L << (T__73 - 64)) | (1L << (T__75 - 64)) | (1L << (T__76 - 64)) | (1L << (T__77 - 64)) | (1L << (T__78 - 64)) | (1L << (T__79 - 64)) | (1L << (T__80 - 64)) | (1L << (T__81 - 64)) | (1L << (T__82 - 64)) | (1L << (T__83 - 64)) | (1L << (T__84 - 64)) | (1L << (T__85 - 64)) | (1L << (T__86 - 64)) | (1L << (T__87 - 64)) | (1L << (T__88 - 64)) | (1L << (Identifier - 64)) | (1L << (Binary_literal - 64)) | (1L << (Octal_literal - 64)) | (1L << (Decimal_literal - 64)) | (1L << (Hexadecimal_literal - 64)) | (1L << (Floating_point_literal - 64)) | (1L << (String_literal - 64)))) != 0)) {
 				{
 				setState(414);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,0,_ctx) ) {
 				case 1:
 					{
@@ -367,6 +368,7 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(442);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,7,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -565,6 +567,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 6, RULE_loop_statement);
 		try {
 			setState(453);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,9,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -645,6 +648,7 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(481);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,16,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -674,6 +678,7 @@ public class SwiftParser extends Parser {
 				setState(463);
 				match(T__0);
 				setState(465);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,12,_ctx) ) {
 				case 1:
 					{
@@ -715,6 +720,7 @@ public class SwiftParser extends Parser {
 				setState(476);
 				match(T__0);
 				setState(478);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,15,_ctx) ) {
 				case 1:
 					{
@@ -772,6 +778,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 10, RULE_for_init);
 		try {
 			setState(485);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,17,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -940,6 +947,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 16, RULE_while_condition);
 		try {
 			setState(499);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,18,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1177,6 +1185,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 24, RULE_if_condition);
 		try {
 			setState(518);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,21,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1236,6 +1245,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 26, RULE_else_clause);
 		try {
 			setState(524);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,22,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1422,6 +1432,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 32, RULE_switch_case);
 		try {
 			setState(550);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,25,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -1768,6 +1779,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 44, RULE_labeled_statement);
 		try {
 			setState(581);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,28,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2003,6 +2015,7 @@ public class SwiftParser extends Parser {
 			setState(594);
 			match(T__15);
 			setState(596);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,30,_ctx) ) {
 			case 1:
 				{
@@ -2056,6 +2069,7 @@ public class SwiftParser extends Parser {
 			setState(598);
 			match(T__16);
 			setState(600);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,31,_ctx) ) {
 			case 1:
 				{
@@ -2150,6 +2164,7 @@ public class SwiftParser extends Parser {
 			setState(604);
 			match(T__18);
 			setState(606);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,32,_ctx) ) {
 			case 1:
 				{
@@ -2263,6 +2278,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 62, RULE_generic_parameter_list);
 		try {
 			setState(620);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,34,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2329,6 +2345,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 64, RULE_generic_parameter);
 		try {
 			setState(631);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,35,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2449,6 +2466,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 68, RULE_requirement_list);
 		try {
 			setState(641);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,36,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2512,6 +2530,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 70, RULE_requirement);
 		try {
 			setState(645);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,37,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2574,6 +2593,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 72, RULE_conformance_requirement);
 		try {
 			setState(655);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,38,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -2884,6 +2904,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 82, RULE_declaration);
 		try {
 			setState(689);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,40,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3362,6 +3383,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 96, RULE_import_path);
 		try {
 			setState(723);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,46,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -3659,6 +3681,7 @@ public class SwiftParser extends Parser {
 			setState(746);
 			pattern(0);
 			setState(748);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,51,_ctx) ) {
 			case 1:
 				{
@@ -3779,6 +3802,7 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(779);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,53,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -4005,6 +4029,7 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(803);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,57,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -4260,6 +4285,7 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(834);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,62,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -4447,6 +4473,7 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(858);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,66,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -5300,6 +5327,7 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(934);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,79,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -5374,6 +5402,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 158, RULE_parameter_list);
 		try {
 			setState(941);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,80,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -5450,11 +5479,13 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(979);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,91,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
 				{
 				setState(944);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,81,_ctx) ) {
 				case 1:
 					{
@@ -5820,6 +5851,7 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(1000);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,96,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -6027,6 +6059,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 174, RULE_union_style_enum_member);
 		try {
 			setState(1018);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,100,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -6145,6 +6178,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 178, RULE_union_style_enum_case_list);
 		try {
 			setState(1031);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,102,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -6490,6 +6524,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 190, RULE_raw_value_style_enum_member);
 		try {
 			setState(1059);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,107,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -6608,6 +6643,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 194, RULE_raw_value_style_enum_case_list);
 		try {
 			setState(1072);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,109,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -7335,6 +7371,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 218, RULE_protocol_member_declaration);
 		try {
 			setState(1146);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,122,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -8145,6 +8182,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 244, RULE_subscript_declaration);
 		try {
 			setState(1229);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,134,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -8344,6 +8382,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 250, RULE_operator_declaration);
 		try {
 			setState(1246);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,137,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -8841,12 +8880,14 @@ public class SwiftParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(1301);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,143,_ctx) ) {
 			case 1:
 				{
 				setState(1284);
 				wildcard_pattern();
 				setState(1286);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,140,_ctx) ) {
 				case 1:
 					{
@@ -8862,6 +8903,7 @@ public class SwiftParser extends Parser {
 				setState(1288);
 				identifier_pattern();
 				setState(1290);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,141,_ctx) ) {
 				case 1:
 					{
@@ -8883,6 +8925,7 @@ public class SwiftParser extends Parser {
 				setState(1293);
 				tuple_pattern();
 				setState(1295);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,142,_ctx) ) {
 				case 1:
 					{
@@ -9313,6 +9356,7 @@ public class SwiftParser extends Parser {
 			setState(1341);
 			enum_case_name();
 			setState(1343);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,149,_ctx) ) {
 			case 1:
 				{
@@ -9365,6 +9409,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 284, RULE_type_casting_pattern);
 		try {
 			setState(1347);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,150,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -9571,6 +9616,7 @@ public class SwiftParser extends Parser {
 			setState(1359);
 			attribute_name();
 			setState(1361);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,151,_ctx) ) {
 			case 1:
 				{
@@ -9856,6 +9902,7 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(1401);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,158,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -10105,6 +10152,7 @@ public class SwiftParser extends Parser {
 			enterOuterAlt(_localctx, 1);
 			{
 			setState(1417);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,160,_ctx) ) {
 			case 1:
 				{
@@ -10137,6 +10185,7 @@ public class SwiftParser extends Parser {
 					_prevctx = _localctx;
 					{
 					setState(1467);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,163,_ctx) ) {
 					case 1:
 						{
@@ -10203,6 +10252,7 @@ public class SwiftParser extends Parser {
 						setState(1436);
 						parenthesized_expression();
 						setState(1438);
+						_errHandler.sync(this);
 						switch ( getInterpreter().adaptivePredict(_input,161,_ctx) ) {
 						case 1:
 							{
@@ -10248,6 +10298,7 @@ public class SwiftParser extends Parser {
 						setState(1448);
 						identifier();
 						setState(1450);
+						_errHandler.sync(this);
 						switch ( getInterpreter().adaptivePredict(_input,162,_ctx) ) {
 						case 1:
 							{
@@ -10667,6 +10718,7 @@ public class SwiftParser extends Parser {
 				setState(1492);
 				identifier();
 				setState(1494);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,167,_ctx) ) {
 				case 1:
 					{
@@ -10785,6 +10837,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 320, RULE_literal_expression);
 		try {
 			setState(1512);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,169,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -10936,6 +10989,7 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(1528);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,172,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -11049,6 +11103,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 328, RULE_dictionary_literal);
 		try {
 			setState(1539);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,173,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -11233,6 +11288,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 334, RULE_self_expression);
 		try {
 			setState(1565);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,175,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -11323,6 +11379,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 336, RULE_superclass_expression);
 		try {
 			setState(1571);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,176,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -11531,6 +11588,7 @@ public class SwiftParser extends Parser {
 			setState(1586);
 			match(T__8);
 			setState(1588);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,177,_ctx) ) {
 			case 1:
 				{
@@ -11594,6 +11652,7 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(1622);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,182,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -11926,6 +11985,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 356, RULE_expression_element_list);
 		try {
 			setState(1645);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,184,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -11989,6 +12049,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 358, RULE_expression_element);
 		try {
 			setState(1652);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,185,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -12345,6 +12406,7 @@ public class SwiftParser extends Parser {
 					_prevctx = _localctx;
 					{
 					setState(1686);
+					_errHandler.sync(this);
 					switch ( getInterpreter().adaptivePredict(_input,187,_ctx) ) {
 					case 1:
 						{
@@ -12528,6 +12590,7 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(1708);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,192,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -12535,6 +12598,7 @@ public class SwiftParser extends Parser {
 				setState(1697);
 				type_name();
 				setState(1699);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,190,_ctx) ) {
 				case 1:
 					{
@@ -12763,6 +12827,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 382, RULE_tuple_type_element_list);
 		try {
 			setState(1727);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,195,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -12833,6 +12898,7 @@ public class SwiftParser extends Parser {
 		int _la;
 		try {
 			setState(1742);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,199,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -12847,6 +12913,7 @@ public class SwiftParser extends Parser {
 				}
 
 				setState(1733);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,197,_ctx) ) {
 				case 1:
 					{
@@ -12863,6 +12930,7 @@ public class SwiftParser extends Parser {
 				enterOuterAlt(_localctx, 2);
 				{
 				setState(1737);
+				_errHandler.sync(this);
 				switch ( getInterpreter().adaptivePredict(_input,198,_ctx) ) {
 				case 1:
 					{
@@ -13023,6 +13091,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 390, RULE_protocol_identifier_list);
 		try {
 			setState(1758);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,201,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -13127,6 +13196,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 394, RULE_metatype_type);
 		try {
 			setState(1770);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,202,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);
@@ -13477,6 +13547,7 @@ public class SwiftParser extends Parser {
 		enterRule(_localctx, 406, RULE_identifier_list);
 		try {
 			setState(1796);
+			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,205,_ctx) ) {
 			case 1:
 				enterOuterAlt(_localctx, 1);

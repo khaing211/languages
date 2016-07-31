@@ -1,8 +1,7 @@
-// Generated from /home/developer/workspace/languages-parser/c-language/src/main/antlr/C.g4 by ANTLR 4.5
+// Generated from C.g4 by ANTLR 4.5.3
 package com.github.kn.language.parser.impl.model.backend.c;
 
 import org.antlr.v4.runtime.ParserRuleContext;
-import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
