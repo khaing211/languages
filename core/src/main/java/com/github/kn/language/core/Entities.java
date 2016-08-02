@@ -10,8 +10,10 @@ public interface Entities {
    * @return true if parent is wrap the child by [startLine:startIndex, endLine:endIndex]
    */
   static boolean isAncestor(final Entity parent, final Entity child) {
-    // TODO
-    return false;
+    return parent.getStartLine() <= child.getStartLine() &&
+        parent.getStartIndex() <= child.getStartIndex() &&
+        child.getEndIndex() <= parent.getEndIndex() &&
+        child.getEndLine() <= parent.getEndIndex();
   }
   
   static String toShortString(final Entity entity) {
