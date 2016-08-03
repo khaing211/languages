@@ -11,7 +11,9 @@ import com.github.kn.language.core.Entities;
 import com.github.kn.language.core.Entity;
 import com.github.kn.language.core.EntitySpliterator;
 import com.kn.language.parser.antlr.java.JavaBaseVisitor;
+import com.kn.language.parser.antlr.java.JavaParser.AnnotationContext;
 import com.kn.language.parser.antlr.java.JavaParser.ImportDeclarationContext;
+import com.kn.language.parser.antlr.java.JavaParser.PackageDeclarationContext;
 import com.kn.language.parser.antlr.java.JavaParser.QualifiedNameContext;
 
 public class JavaEntitySpliterator extends JavaBaseVisitor<Entity> implements EntitySpliterator {
@@ -24,12 +26,6 @@ public class JavaEntitySpliterator extends JavaBaseVisitor<Entity> implements En
     this.tokenStream = tokenStream;
   }
 
-  @Override
-  public Entity visitChildren(final RuleNode node) {
-    // Important
-    return EntitySpliterator.super.visitChildren(node);
-  }
-  
   @Override
   public Entity visitImportDeclaration(final ImportDeclarationContext ctx) {
     
@@ -60,6 +56,30 @@ public class JavaEntitySpliterator extends JavaBaseVisitor<Entity> implements En
     return entity;
   }
 
+  @Override
+  public Entity visitPackageDeclaration(final PackageDeclarationContext ctx) {
+    final Entity entity = Entities.fromParseRuleContext(ctx, tokenStream)
+        .type(JavaEntityType.PACKAGE.name())
+        .build();
+
+    // TODO: check for annotation
+    //super.visitPackageDeclaration(ctx);
+    
+    return entity;
+  }
+  
+  @Override
+  public Entity visitAnnotation(AnnotationContext ctx) {
+    // TODO Auto-generated method stub
+    return super.visitAnnotation(ctx);
+  }
+  
+  @Override
+  public Entity visitChildren(final RuleNode node) {
+    // Important
+    return EntitySpliterator.super.visitChildren(node);
+  }
+  
   @Override
   public Stack<RuleNode> nodes() {
     return nodes;
