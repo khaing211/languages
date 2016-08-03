@@ -2,7 +2,9 @@ package com.kn.language.parser;
 
 import org.junit.Test;
 
-public class PackageEntityTest {
+import com.kn.language.core.EntityTestBase;
+
+public class PackageEntityTest extends EntityTestBase {
   @Test
   public void testPackageNoAnnotation() {
     

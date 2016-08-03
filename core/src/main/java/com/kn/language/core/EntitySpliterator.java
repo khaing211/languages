@@ -16,13 +16,18 @@ public interface EntitySpliterator extends Spliterator<Entity>, ParseTreeVisitor
   
   @Override
   default boolean tryAdvance(Consumer<? super Entity> action) {
-    if (nodes().isEmpty()) {
-      return false;
+    while (!nodes().isEmpty()) {
+      final RuleNode node = nodes().pop();
+      final Entity entity = visitor().visit(node);
+      
+      // if entity = null, we visit in order to traverse
+      if (entity != null) {
+        action.accept(entity);
+        return true;
+      }
     }
     
-    final Entity entity = visitor().visit(nodes().pop());
-    action.accept(entity);
-    return true;
+    return false;
   }
   
   @Override
