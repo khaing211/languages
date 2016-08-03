@@ -7,9 +7,9 @@ import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 import org.antlr.v4.runtime.tree.RuleNode;
 
-import com.github.kn.language.core.Entities;
-import com.github.kn.language.core.Entity;
-import com.github.kn.language.core.EntitySpliterator;
+import com.kn.language.core.Entities;
+import com.kn.language.core.Entity;
+import com.kn.language.core.EntitySpliterator;
 import com.kn.language.parser.antlr.java.JavaBaseVisitor;
 import com.kn.language.parser.antlr.java.JavaParser.AnnotationContext;
 import com.kn.language.parser.antlr.java.JavaParser.ImportDeclarationContext;

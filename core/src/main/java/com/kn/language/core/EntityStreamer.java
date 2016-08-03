@@ -1,4 +1,4 @@
-package com.github.kn.language.core;
+package com.kn.language.core;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

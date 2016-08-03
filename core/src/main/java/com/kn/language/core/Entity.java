@@ -1,4 +1,4 @@
-package com.github.kn.language.core;
+package com.kn.language.core;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy.SnakeCaseStrategy;

@@ -1,4 +1,4 @@
-package com.github.kn.language.core;
+package com.kn.language.core;
 
 import java.util.Spliterator;
 import java.util.Stack;

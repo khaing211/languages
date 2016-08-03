@@ -11,8 +11,8 @@ import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.TokenStream;
 
-import com.github.kn.language.core.Entity;
-import com.github.kn.language.core.EntityStreamer;
+import com.kn.language.core.Entity;
+import com.kn.language.core.EntityStreamer;
 import com.kn.language.parser.antlr.java.JavaLexer;
 import com.kn.language.parser.antlr.java.JavaParser;
 
@@ -21,7 +21,7 @@ public class JavaEntityStreamer implements EntityStreamer {
   
   @Override
   public Stream<Entity> from(final InputStream inputStream) {
-    // http://stackoverflow.com/questions/16432469/is-it-possible-to-parse-big-file-with-antlr
+    // TODO: http://stackoverflow.com/questions/16432469/is-it-possible-to-parse-big-file-with-antlr
     
     try {
       final CharStream charStream = new ANTLRInputStream(inputStream);
