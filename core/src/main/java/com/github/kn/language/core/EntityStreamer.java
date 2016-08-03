@@ -36,7 +36,7 @@ public interface EntityStreamer {
   Stream<Entity> from(final InputStream inputStream);
   
   /**
-   * @return string value represent the entity type
+   * @return language value represent {@link EntityStreamer} can language
    */
-  String getEntityType();
+  String getLanguage();
 }

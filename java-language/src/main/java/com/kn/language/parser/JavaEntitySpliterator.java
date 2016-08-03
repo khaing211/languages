@@ -1,67 +1,72 @@
 package com.kn.language.parser;
 
-import java.util.Spliterator;
 import java.util.Stack;
-import java.util.function.Consumer;
 
+import org.antlr.v4.runtime.TokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
+import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 import org.antlr.v4.runtime.tree.RuleNode;
 
+import com.github.kn.language.core.Entities;
 import com.github.kn.language.core.Entity;
+import com.github.kn.language.core.EntitySpliterator;
 import com.kn.language.parser.antlr.java.JavaBaseVisitor;
+import com.kn.language.parser.antlr.java.JavaParser.ImportDeclarationContext;
+import com.kn.language.parser.antlr.java.JavaParser.QualifiedNameContext;
 
-import lombok.extern.slf4j.Slf4j;
-
-@Slf4j
-public class JavaEntitySpliterator extends JavaBaseVisitor<Entity> implements Spliterator<Entity> {
-  // Depth first use less memory (class -> method -> statement)
+public class JavaEntitySpliterator extends JavaBaseVisitor<Entity> implements EntitySpliterator {
   private final Stack<RuleNode> nodes = new Stack<>();
   
-  public JavaEntitySpliterator(final RuleNode initialNode) {
-    nodes.add(initialNode);
-  }
+  private final TokenStream tokenStream;
   
-  @Override
-  public boolean tryAdvance(Consumer<? super Entity> action) {
-    if (nodes.isEmpty()) {
-      return false;
-    }
-    
-    final Entity entity = this.visit(nodes.pop());
-    action.accept(entity);
-    return true;
+  public JavaEntitySpliterator(final RuleNode initialNode, final TokenStream tokenStream) {
+    nodes.add(initialNode);
+    this.tokenStream = tokenStream;
   }
 
   @Override
   public Entity visitChildren(final RuleNode node) {
-    log.info("Receive ruleNode: {}", node);
-    for (int i = 0; i < node.getChildCount(); i++) {
-      final ParseTree parseTree = node.getChild(i);
-      if (parseTree instanceof RuleNode) {
-        nodes.push((RuleNode)parseTree);
-      } else {
-        log.info("Reach the end of the stream {}", parseTree);
-      }
-    }
-    
-    // No one care about result of this
-    return null;
+    // Important
+    return EntitySpliterator.super.visitChildren(node);
   }
   
   @Override
-  public Spliterator<Entity> trySplit() {
-    // never split
-    return null;
+  public Entity visitImportDeclaration(final ImportDeclarationContext ctx) {
+    
+    int qualifiedNameIndex = 1;
+    boolean staticImport = false;
+    // see Java.g4
+    for (; qualifiedNameIndex <= 2; qualifiedNameIndex++) {
+      final ParseTree child = ctx.getChild(qualifiedNameIndex);
+      if (child instanceof QualifiedNameContext) {
+        break;
+      } else {
+        staticImport = true;
+      }
+    }
+
+    final StringBuilder qualifiedNameBuilder = new StringBuilder();
+    // ignore the last child which is ';'
+    for (; qualifiedNameIndex < ctx.getChildCount() - 1; qualifiedNameIndex++) {
+      qualifiedNameBuilder.append(ctx.getChild(qualifiedNameIndex).getText());
+    }
+    
+    final Entity entity = Entities.fromParseRuleContext(ctx, tokenStream)
+        .type(JavaEntityType.IMPORT.name())
+        .value(qualifiedNameBuilder.toString())
+        .property("static", staticImport)
+        .build();
+    
+    return entity;
   }
 
   @Override
-  public long estimateSize() {
-    return Long.MAX_VALUE;
+  public Stack<RuleNode> nodes() {
+    return nodes;
   }
 
   @Override
-  public int characteristics() {
-    return DISTINCT | IMMUTABLE;
+  public ParseTreeVisitor<Entity> visitor() {
+    return this;
   }
-
 }

@@ -17,7 +17,7 @@ import com.kn.language.parser.antlr.java.JavaLexer;
 import com.kn.language.parser.antlr.java.JavaParser;
 
 public class JavaEntityStreamer implements EntityStreamer {
-  public static final String JAVA_ENTITY_TYPE = "java";
+  public static final String JAVA_LANGUAGE = "java";
   
   @Override
   public Stream<Entity> from(final InputStream inputStream) {
@@ -26,11 +26,11 @@ public class JavaEntityStreamer implements EntityStreamer {
     try {
       final CharStream charStream = new ANTLRInputStream(inputStream);
       final JavaLexer lexer = new JavaLexer(charStream);
-      final TokenStream tokens = new CommonTokenStream(lexer);
-      final JavaParser parser = new JavaParser(tokens);
+      final TokenStream tokenStream = new CommonTokenStream(lexer);
+      final JavaParser parser = new JavaParser(tokenStream);
       
       // CompilationUnit is the expected initial node
-      final JavaEntitySpliterator visitor = new JavaEntitySpliterator(parser.compilationUnit());
+      final JavaEntitySpliterator visitor = new JavaEntitySpliterator(parser.compilationUnit(), tokenStream);
       return StreamSupport.stream(visitor, false);
     } catch (IOException e) {
       throw new UncheckedIOException(e);
@@ -38,7 +38,7 @@ public class JavaEntityStreamer implements EntityStreamer {
   }
   
   @Override
-  public String getEntityType() {
-    return JAVA_ENTITY_TYPE;
+  public String getLanguage() {
+    return JAVA_LANGUAGE;
   }
 }
