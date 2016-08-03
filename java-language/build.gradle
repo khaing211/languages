@@ -1,5 +1,5 @@
 ext {
-  javaPackage = 'com.github.kn.language.parser.impl.model.backend.java'
+  javaPackage = 'com.kn.language.parser.antlr.java'
 }
 
 generateGrammarSource {

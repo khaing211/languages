@@ -9,6 +9,7 @@ buildscript {
     dependencies {
       classpath group: 'com.kn.forge', name: 'java-project-plugin', version: forgeVersion
       classpath group: 'com.kn.forge', name: 'antlr-project-plugin', version: forgeVersion
+      classpath group: 'com.kn.forge', name: 'code-style-plugin', version: forgeVersion
     }
   }
 }

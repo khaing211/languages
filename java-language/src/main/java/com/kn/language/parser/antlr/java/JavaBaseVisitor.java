@@ -1,5 +1,5 @@
 // Generated from Java.g4 by ANTLR 4.5.3
-package com.github.kn.language.parser.impl.model.backend.java;
+package com.kn.language.parser.antlr.java;
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
 /**
