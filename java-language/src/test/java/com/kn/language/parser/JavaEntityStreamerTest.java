@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import com.kn.language.core.EntityTestBase;
 
-@Ignore
+//@Ignore
 public class JavaEntityStreamerTest extends EntityTestBase {
   @Test
   public void testTestJava() {

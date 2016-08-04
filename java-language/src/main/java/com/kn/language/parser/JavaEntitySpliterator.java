@@ -7,14 +7,17 @@ import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 import org.antlr.v4.runtime.tree.RuleNode;
 
-import com.kn.language.core.Entities;
+import com.kn.language.core.AntlrHelper;
 import com.kn.language.core.Entity;
 import com.kn.language.core.EntitySpliterator;
 import com.kn.language.parser.antlr.java.JavaBaseVisitor;
 import com.kn.language.parser.antlr.java.JavaParser.AnnotationContext;
-import com.kn.language.parser.antlr.java.JavaParser.ImportDeclarationContext;
 import com.kn.language.parser.antlr.java.JavaParser.PackageDeclarationContext;
-import com.kn.language.parser.antlr.java.JavaParser.QualifiedNameContext;
+import com.kn.language.parser.antlr.java.JavaParser.PackageModifierContext;
+import com.kn.language.parser.antlr.java.JavaParser.SingleStaticImportDeclarationContext;
+import com.kn.language.parser.antlr.java.JavaParser.SingleTypeImportDeclarationContext;
+import com.kn.language.parser.antlr.java.JavaParser.StaticImportOnDemandDeclarationContext;
+import com.kn.language.parser.antlr.java.JavaParser.TypeImportOnDemandDeclarationContext;
 
 public class JavaEntitySpliterator extends JavaBaseVisitor<Entity> implements EntitySpliterator {
   private final Stack<RuleNode> nodes = new Stack<>();
@@ -27,43 +30,73 @@ public class JavaEntitySpliterator extends JavaBaseVisitor<Entity> implements En
   }
 
   @Override
-  public Entity visitImportDeclaration(final ImportDeclarationContext ctx) {
-    
-    int qualifiedNameIndex = 1;
-    boolean staticImport = false;
-    // see Java.g4
-    for (; qualifiedNameIndex <= 2; qualifiedNameIndex++) {
-      final ParseTree child = ctx.getChild(qualifiedNameIndex);
-      if (child instanceof QualifiedNameContext) {
-        break;
-      } else {
-        staticImport = true;
-      }
-    }
-
-    final StringBuilder qualifiedNameBuilder = new StringBuilder();
-    // ignore the last child which is ';'
-    for (; qualifiedNameIndex < ctx.getChildCount() - 1; qualifiedNameIndex++) {
-      qualifiedNameBuilder.append(ctx.getChild(qualifiedNameIndex).getText());
-    }
-    
-    final Entity entity = Entities.fromParseRuleContext(ctx, tokenStream)
+  public Entity visitSingleStaticImportDeclaration(final SingleStaticImportDeclarationContext ctx) {
+    // Java.g4 / singleStaticImportDeclaration
+    return AntlrHelper.fromParseRuleContext(ctx, tokenStream)
         .type(JavaEntityType.IMPORT.name())
-        .value(qualifiedNameBuilder.toString())
-        .property("static", staticImport)
+        // typeName + "." + Identifier
+        .value(AntlrHelper.getTextFromRangeOfChild(ctx, 2, 4))
+        .property("static", true)
+        .property("star", false)
         .build();
-    
-    return entity;
+  }
+  
+  @Override
+  public Entity visitSingleTypeImportDeclaration(final SingleTypeImportDeclarationContext ctx) {
+    // Java.g4 / singleTypeImportDeclaration
+    return AntlrHelper.fromParseRuleContext(ctx, tokenStream)
+        .type(JavaEntityType.IMPORT.name())
+        .value(ctx.getChild(1).getText())
+        .property("static", false)
+        .property("star", false)
+        .build();
+  }
+
+  @Override
+  public Entity visitTypeImportOnDemandDeclaration(final TypeImportOnDemandDeclarationContext ctx) {
+    // Java.g4 / typeImportOnDemandDeclaration
+    return AntlrHelper.fromParseRuleContext(ctx, tokenStream)
+        .type(JavaEntityType.IMPORT.name())
+        .value(AntlrHelper.getTextFromRangeOfChild(ctx, 1, 3))
+        .property("static", false)
+        .property("star", true)
+        .build();
+  }
+  
+  @Override
+  public Entity visitStaticImportOnDemandDeclaration(final StaticImportOnDemandDeclarationContext ctx) {
+    // Java.g4 / staticImportOnDemandDeclaration
+    return AntlrHelper.fromParseRuleContext(ctx, tokenStream)
+        .type(JavaEntityType.IMPORT.name())
+        .value(AntlrHelper.getTextFromRangeOfChild(ctx, 2, 4))
+        .property("static", false)
+        .property("star", true)
+        .build();
   }
 
   @Override
   public Entity visitPackageDeclaration(final PackageDeclarationContext ctx) {
-    final Entity entity = Entities.fromParseRuleContext(ctx, tokenStream)
+    // Push all package annotation to the stack
+    int foundIndex = 0;
+    for (; foundIndex < ctx.getChildCount(); foundIndex++) {
+      final ParseTree parseTree = ctx.getChild(foundIndex);
+      if (!(parseTree instanceof PackageModifierContext)) {
+        break;
+      }
+      
+      if (parseTree instanceof RuleNode) {
+        nodes.push((RuleNode)parseTree);
+      } else {
+        break;
+      }
+    }
+    
+    final Entity entity = AntlrHelper.fromParseRuleContext(ctx, tokenStream)
         .type(JavaEntityType.PACKAGE.name())
+        // exclude ';' at the end
+        // endIndex is inclusive so -2
+        .value(AntlrHelper.getTextFromRangeOfChild(ctx, foundIndex+1, ctx.getChildCount()-2))
         .build();
-
-    // TODO: check for annotation
-    //super.visitPackageDeclaration(ctx);
     
     return entity;
   }
