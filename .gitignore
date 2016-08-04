@@ -8,8 +8,8 @@
 *.jar
 *.war
 *.ear
-/bin
-/build
+*/bin
+*/build
 
 # gradle
 .gradle
