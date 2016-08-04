@@ -1,7 +1,7 @@
 package com.kn.language.core;
 
+import java.util.Deque;
 import java.util.Spliterator;
-import java.util.Stack;
 import java.util.function.Consumer;
 
 import org.antlr.v4.runtime.tree.ParseTree;
@@ -10,14 +10,14 @@ import org.antlr.v4.runtime.tree.RuleNode;
 
 public interface EntitySpliterator extends Spliterator<Entity>, ParseTreeVisitor<Entity> {
   // Depth first use less memory (class -> method -> statement)
-  Stack<RuleNode> nodes();
+  Deque<RuleNode> nodes();
   
   ParseTreeVisitor<Entity> visitor();
   
   @Override
   default boolean tryAdvance(Consumer<? super Entity> action) {
     while (!nodes().isEmpty()) {
-      final RuleNode node = nodes().pop();
+      final RuleNode node = nodes().pollFirst();
       final Entity entity = visitor().visit(node);
       
       // if entity = null, we visit in order to traverse
@@ -35,7 +35,7 @@ public interface EntitySpliterator extends Spliterator<Entity>, ParseTreeVisitor
     for (int i = 0; i < node.getChildCount(); i++) {
       final ParseTree parseTree = node.getChild(i);
       if (parseTree instanceof RuleNode) {
-        nodes().push((RuleNode)parseTree);
+        nodes().addLast((RuleNode)parseTree);
       }
     }
     
